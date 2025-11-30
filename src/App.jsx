@@ -22,7 +22,7 @@ function App() {
         <LessonProvider>
           <ResourceProvider>
             <CssBaseline />
-            <Router>
+            <Router basename="/sustainable-living-platform-">
               <Layout>
                 <Routes>
                   <Route path="/" element={<Home />} />
